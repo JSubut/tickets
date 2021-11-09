@@ -45,7 +45,7 @@ session_start();
                 if ($misto == $results[$i]["city"]) {
                     continue;
                 }else{
-                    echo "<a class=\"btn btn-dark\" href=\"druk.php?m=" . $results[$i]["name"] . "&p=" . $results[$i]["email"] .  "&n=" . $results[$i]["email"] . "&с=" . $results[$i]["city"] ."\" role=\"button\">" . $results[$i]["city"] . "</a><br>";
+                    echo "<a class=\"btn btn-dark\" href=\"druk.php?m=" . $results[$i]["name"] . "&p=" . $results[$i]["email"] .  "&n=" . $results[$i]["phone"] . "&c=" . $results[$i]["city"] ."\" role=\"button\">" . $results[$i]["city"] . "</a><br>";
                     $misto = $results[$i]["city"];
                 }
             }

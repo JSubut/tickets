@@ -30,9 +30,9 @@
         <div class="alert alert-danger alert-dismissible" id="error" style="display:none;">
             <a href="#" class="close" data-dismiss="alert" aria-label="close">×</a>
         </div>
-        <div class="mb-3">
-        <button type="button" class="btn btn-success btn-sm" id="register">Форма реєстрації</button> <button type="button" class="btn btn-success btn-sm" id="login">Форма входу</button>
-        </div>
+<!--        <div class="mb-3">-->
+<!--        <button type="button" class="btn btn-success btn-sm" id="register">Форма реєстрації</button> <button type="button" class="btn btn-success btn-sm" id="login">Форма входу</button>-->
+<!--        </div>-->
 
         <form id="register_form" name="form1" method="post" style="display:none;">
             <div class="form-group mb-3">
@@ -72,14 +72,6 @@
                 <input type="password" class="form-control" id="password_log" placeholder="та пароль" name="password" autocomplete="on">
             </div>
             <input type="button" name="save" class="btn btn-primary" value="Увійти" id="butlogin">
-            <a class="btn btn-dark" href="user.php">
-                Екстренний вхід
-<!--            <input type="button" name="save" class="btn btn-primary" value="Екстренний вхід" id="butlogin">-->
-            </a>
-            <a class="btn btn-dark" href="admin.php">
-                Адмінка
-                <!--            <input type="button" name="save" class="btn btn-primary" value="Екстренний вхід" id="butlogin">-->
-            </a>
         </form>
     </div>
 
