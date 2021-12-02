@@ -40,7 +40,7 @@ session_start();
                     if ($name == $row["name"]) {
                         continue;
                     } else {
-                        echo "<a class=\"btn btn-dark\" href=\"drivers.php?m=" . $row["name"] . "\" role=\"button\">" . $row["name"] . "</a><br>";
+                        echo "<a class=\"btn btn-dark\" href=\"drivers.php?m=" . $row["name"] . "&p=" . $row["name"] . "\" role=\"button\">" . $row["name"] . "</a><br>";
                         $name = $row["name"];
                     }
                 }
